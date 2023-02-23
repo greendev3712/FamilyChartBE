@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0ba06981dd605e30f2b7ffe86f1ae69c",
+    "content-hash": "593a7908ef44a55dc0277bdefd7882dc",
     "packages": [
         {
             "name": "anlutro/curl",
@@ -540,68 +540,6 @@
             "time": "2022-09-30T08:35:45+00:00"
         },
         {
-            "name": "cgdsoftware/api",
-            "version": "1.5.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/cgdsoftware/api.git",
-                "reference": "3855509802dde1e269cf1632247a6f232265fe68"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/cgdsoftware/api/zipball/3855509802dde1e269cf1632247a6f232265fe68",
-                "reference": "3855509802dde1e269cf1632247a6f232265fe68",
-                "shasum": ""
-            },
-            "require": {
-                "laravel-enso/enums": "^2.0",
-                "laravel-enso/helpers": "^2.0",
-                "laravel/framework": "^7.0|^8.0|^9.0",
-                "php": "^8.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "LaravelEnso\\Api\\AppServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "LaravelEnso\\Api\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Adrian Ocneanu",
-                    "email": "aocneanu@gmail.com",
-                    "homepage": "https://laravel-enso.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Vlad Chiovianu",
-                    "email": "vlad.chiovianu@earthlink.ro",
-                    "homepage": "https://laravel-enso.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "External API boilerplate for Laravel Enso",
-            "homepage": "https://git.xtelecom.ro/laravel-enso/api",
-            "keywords": [
-                "api",
-                "laravel-enso"
-            ],
-            "support": {
-                "source": "https://github.com/cgdsoftware/api/tree/1.5.0"
-            },
-            "time": "2022-09-29T08:42:39+00:00"
-        },
-        {
             "name": "cgdsoftware/avatars",
             "version": "v4.0.9",
             "source": {
@@ -935,26 +873,26 @@
         },
         {
             "name": "cgdsoftware/control-panel-api",
-            "version": "v3.2.3",
+            "version": "v9.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cgdsoftware/control-panel-api.git",
-                "reference": "a000db0c8880e62e0d89dedc720121a5378c780b"
+                "reference": "e54afa761f12ca4f6cbd3a2e580a7ee2b7f40bd7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cgdsoftware/control-panel-api/zipball/a000db0c8880e62e0d89dedc720121a5378c780b",
-                "reference": "a000db0c8880e62e0d89dedc720121a5378c780b",
+                "url": "https://api.github.com/repos/cgdsoftware/control-panel-api/zipball/e54afa761f12ca4f6cbd3a2e580a7ee2b7f40bd7",
+                "reference": "e54afa761f12ca4f6cbd3a2e580a7ee2b7f40bd7",
                 "shasum": ""
             },
             "require": {
-                "cgdsoftware/action-logger": "^3.1",
-                "cgdsoftware/api": "^1.2",
-                "cgdsoftware/control-panel-common": "^2.0",
-                "cgdsoftware/core": "^8.0",
-                "cgdsoftware/enums": "^2.0",
-                "cgdsoftware/helpers": "^2.0",
-                "cgdsoftware/logs": "^4.0"
+                "laravel-enso/action-logger": "^3.1",
+                "laravel-enso/api": "^1.2",
+                "laravel-enso/control-panel-common": "^2.0",
+                "laravel-enso/core": "^8.0",
+                "laravel-enso/enums": "^2.0",
+                "laravel-enso/helpers": "^2.0",
+                "laravel-enso/logs": "^4.0"
             },
             "type": "library",
             "extra": {
@@ -979,79 +917,27 @@
                 {
                     "name": "Mihai Ocneanu",
                     "email": "mihai.ocneanu@gmail.com",
-                    "homepage": "https://cgdsoftware.com",
+                    "homepage": "https://laravel-enso.com",
                     "role": "Developer"
                 },
                 {
                     "name": "Adrian Ocneanu",
                     "email": "aocneanu@gmail.com",
-                    "homepage": "https://cgdsoftware.com",
+                    "homepage": "https://laravel-enso.com",
                     "role": "Developer"
                 }
             ],
             "description": "Control Panel API for Laravel Enso",
             "keywords": [
                 "api",
-                "cgdsoftware",
                 "controlpanel",
-                "laravel"
+                "laravel",
+                "laravel-enso"
             ],
             "support": {
-                "source": "https://github.com/cgdsoftware/control-panel-api/tree/v3.2.3"
+                "source": "https://github.com/cgdsoftware/control-panel-api/tree/v9.0.2"
             },
-            "time": "2023-01-27T23:01:20+00:00"
-        },
-        {
-            "name": "cgdsoftware/control-panel-common",
-            "version": "v2.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/cgdsoftware/control-panel-common.git",
-                "reference": "168ea484cb121a1bbf264a2ef522fb0e25929a38"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/cgdsoftware/control-panel-common/zipball/168ea484cb121a1bbf264a2ef522fb0e25929a38",
-                "reference": "168ea484cb121a1bbf264a2ef522fb0e25929a38",
-                "shasum": ""
-            },
-            "require": {
-                "cgdsoftware/helpers": "^2.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "LaravelEnso\\ControlPanelCommon\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Adrian Ocneanu",
-                    "email": "aocneanu@gmail.com",
-                    "homepage": "https://cgdsoftware.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Reza Fouladi",
-                    "email": "raftx24@gmail.com",
-                    "homepage": "https://cgdsoftware.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Control Panel Common for Laravel Enso",
-            "keywords": [
-                "cgdsoftware",
-                "controlpanel",
-                "laravel"
-            ],
-            "support": {
-                "source": "https://github.com/cgdsoftware/control-panel-common/tree/v2.1.1"
-            },
-            "time": "2023-01-27T23:09:43+00:00"
+            "time": "2022-03-26T18:56:03+00:00"
         },
         {
             "name": "cgdsoftware/core",
@@ -5010,6 +4896,90 @@
             "time": "2022-10-26T14:07:24+00:00"
         },
         {
+            "name": "guzzlehttp/uri-template",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/uri-template.git",
+                "reference": "b945d74a55a25a949158444f09ec0d3c120d69e2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/uri-template/zipball/b945d74a55a25a949158444f09ec0d3c120d69e2",
+                "reference": "b945d74a55a25a949158444f09ec0d3c120d69e2",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2.5 || ^8.0",
+                "symfony/polyfill-php80": "^1.17"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.5.19 || ^9.5.8",
+                "uri-template/tests": "1.0.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\UriTemplate\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Graham Campbell",
+                    "email": "hello@gjcampbell.co.uk",
+                    "homepage": "https://github.com/GrahamCampbell"
+                },
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "George Mponos",
+                    "email": "gmponos@gmail.com",
+                    "homepage": "https://github.com/gmponos"
+                },
+                {
+                    "name": "Tobias Nyholm",
+                    "email": "tobias.nyholm@gmail.com",
+                    "homepage": "https://github.com/Nyholm"
+                }
+            ],
+            "description": "A polyfill class for uri_template of PHP",
+            "keywords": [
+                "guzzlehttp",
+                "uri-template"
+            ],
+            "support": {
+                "issues": "https://github.com/guzzle/uri-template/issues",
+                "source": "https://github.com/guzzle/uri-template/tree/v1.0.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/Nyholm",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/guzzlehttp/uri-template",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-10-07T12:57:01+00:00"
+        },
+        {
             "name": "http-interop/http-factory-guzzle",
             "version": "1.2.0",
             "source": {
@@ -5646,6 +5616,69 @@
             "time": "2023-02-02T09:11:21+00:00"
         },
         {
+            "name": "laravel-enso/api",
+            "version": "1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel-enso/api.git",
+                "reference": "3855509802dde1e269cf1632247a6f232265fe68"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel-enso/api/zipball/3855509802dde1e269cf1632247a6f232265fe68",
+                "reference": "3855509802dde1e269cf1632247a6f232265fe68",
+                "shasum": ""
+            },
+            "require": {
+                "laravel-enso/enums": "^2.0",
+                "laravel-enso/helpers": "^2.0",
+                "laravel/framework": "^7.0|^8.0|^9.0",
+                "php": "^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "LaravelEnso\\Api\\AppServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "LaravelEnso\\Api\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Adrian Ocneanu",
+                    "email": "aocneanu@gmail.com",
+                    "homepage": "https://laravel-enso.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Vlad Chiovianu",
+                    "email": "vlad.chiovianu@earthlink.ro",
+                    "homepage": "https://laravel-enso.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "External API boilerplate for Laravel Enso",
+            "homepage": "https://git.xtelecom.ro/laravel-enso/api",
+            "keywords": [
+                "api",
+                "laravel-enso"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel-enso/api/issues",
+                "source": "https://github.com/laravel-enso/api/tree/1.5.0"
+            },
+            "time": "2022-09-29T08:42:39+00:00"
+        },
+        {
             "name": "laravel-enso/avatars",
             "version": "4.0.8",
             "source": {
@@ -5838,6 +5871,59 @@
                 "source": "https://github.com/laravel-enso/companies/tree/4.0.4"
             },
             "time": "2022-03-06T12:56:14+00:00"
+        },
+        {
+            "name": "laravel-enso/control-panel-common",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel-enso/control-panel-common.git",
+                "reference": "9b244b2d0bd8f4fcb5ee7d4bcf43633d4cfcca38"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel-enso/control-panel-common/zipball/9b244b2d0bd8f4fcb5ee7d4bcf43633d4cfcca38",
+                "reference": "9b244b2d0bd8f4fcb5ee7d4bcf43633d4cfcca38",
+                "shasum": ""
+            },
+            "require": {
+                "laravel-enso/helpers": "^2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LaravelEnso\\ControlPanelCommon\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Adrian Ocneanu",
+                    "email": "aocneanu@gmail.com",
+                    "homepage": "https://laravel-enso.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Reza Fouladi",
+                    "email": "raftx24@gmail.com",
+                    "homepage": "https://laravel-enso.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Control Panel Common for Laravel Enso",
+            "keywords": [
+                "controlpanel",
+                "laravel",
+                "laravel-enso"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel-enso/control-panel-common/issues",
+                "source": "https://github.com/laravel-enso/control-panel-common/tree/2.1.0"
+            },
+            "time": "2021-06-27T09:03:00+00:00"
         },
         {
             "name": "laravel-enso/core",
@@ -7572,16 +7658,16 @@
         },
         {
             "name": "laravel-enso/tables",
-            "version": "4.13.8",
+            "version": "4.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-enso/tables.git",
-                "reference": "11b9fa26bef985c914f07710e2104ebec694725c"
+                "reference": "47c35734eb998298ed6ccb9704ae0265fdab4522"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-enso/tables/zipball/11b9fa26bef985c914f07710e2104ebec694725c",
-                "reference": "11b9fa26bef985c914f07710e2104ebec694725c",
+                "url": "https://api.github.com/repos/laravel-enso/tables/zipball/47c35734eb998298ed6ccb9704ae0265fdab4522",
+                "reference": "47c35734eb998298ed6ccb9704ae0265fdab4522",
                 "shasum": ""
             },
             "require": {
@@ -7628,9 +7714,9 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel-enso/tables/issues",
-                "source": "https://github.com/laravel-enso/tables/tree/4.13.8"
+                "source": "https://github.com/laravel-enso/tables/tree/4.14.0"
             },
-            "time": "2023-02-02T18:15:06+00:00"
+            "time": "2023-02-08T11:31:02+00:00"
         },
         {
             "name": "laravel-enso/track-who",
@@ -7682,16 +7768,16 @@
         },
         {
             "name": "laravel-enso/upgrade",
-            "version": "2.7.4",
+            "version": "2.7.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel-enso/upgrade.git",
-                "reference": "2a1b087673d38afd4437e0dfc5b2062cd0dccfdd"
+                "reference": "9263edc980a6644ecfe53e6bdf4719f246a01dac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel-enso/upgrade/zipball/2a1b087673d38afd4437e0dfc5b2062cd0dccfdd",
-                "reference": "2a1b087673d38afd4437e0dfc5b2062cd0dccfdd",
+                "url": "https://api.github.com/repos/laravel-enso/upgrade/zipball/9263edc980a6644ecfe53e6bdf4719f246a01dac",
+                "reference": "9263edc980a6644ecfe53e6bdf4719f246a01dac",
                 "shasum": ""
             },
             "require": {
@@ -7735,9 +7821,9 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel-enso/upgrade/issues",
-                "source": "https://github.com/laravel-enso/upgrade/tree/2.7.4"
+                "source": "https://github.com/laravel-enso/upgrade/tree/2.7.5"
             },
-            "time": "2022-10-25T09:57:51+00:00"
+            "time": "2023-02-22T06:55:10+00:00"
         },
         {
             "name": "laravel-enso/user-groups",
@@ -7987,16 +8073,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v9.50.2",
+            "version": "v9.52.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "39932773c09658ddea9045958f305e67f9304995"
+                "reference": "9239128cfb4d22afefb64060dfecf53e82987267"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/39932773c09658ddea9045958f305e67f9304995",
-                "reference": "39932773c09658ddea9045958f305e67f9304995",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/9239128cfb4d22afefb64060dfecf53e82987267",
+                "reference": "9239128cfb4d22afefb64060dfecf53e82987267",
                 "shasum": ""
             },
             "require": {
@@ -8004,9 +8090,15 @@
                 "doctrine/inflector": "^2.0.5",
                 "dragonmantank/cron-expression": "^3.3.2",
                 "egulias/email-validator": "^3.2.1|^4.0",
+                "ext-ctype": "*",
+                "ext-filter": "*",
+                "ext-hash": "*",
                 "ext-mbstring": "*",
                 "ext-openssl": "*",
+                "ext-session": "*",
+                "ext-tokenizer": "*",
                 "fruitcake/php-cors": "^1.2",
+                "guzzlehttp/uri-template": "^1.0",
                 "laravel/serializable-closure": "^1.2.2",
                 "league/commonmark": "^2.2.1",
                 "league/flysystem": "^3.8.0",
@@ -8078,6 +8170,7 @@
                 "ably/ably-php": "^1.0",
                 "aws/aws-sdk-php": "^3.235.5",
                 "doctrine/dbal": "^2.13.3|^3.1.4",
+                "ext-gmp": "*",
                 "fakerphp/faker": "^1.21",
                 "guzzlehttp/guzzle": "^7.5",
                 "league/flysystem-aws-s3-v3": "^3.0",
@@ -8100,10 +8193,13 @@
                 "aws/aws-sdk-php": "Required to use the SQS queue driver, DynamoDb failed job storage, and SES mail driver (^3.235.5).",
                 "brianium/paratest": "Required to run tests in parallel (^6.0).",
                 "doctrine/dbal": "Required to rename columns and drop SQLite columns (^2.13.3|^3.1.4).",
+                "ext-apcu": "Required to use the APC cache driver.",
+                "ext-fileinfo": "Required to use the Filesystem class.",
                 "ext-ftp": "Required to use the Flysystem FTP driver.",
                 "ext-gd": "Required to use Illuminate\\Http\\Testing\\FileFactory::image().",
                 "ext-memcached": "Required to use the memcache cache driver.",
-                "ext-pcntl": "Required to use all features of the queue worker.",
+                "ext-pcntl": "Required to use all features of the queue worker and console signal trapping.",
+                "ext-pdo": "Required to use all database features.",
                 "ext-posix": "Required to use all features of the queue worker.",
                 "ext-redis": "Required to use the Redis cache and queue drivers (^4.0|^5.0).",
                 "fakerphp/faker": "Required to use the eloquent factory builder (^1.9.1).",
@@ -8171,7 +8267,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-02-02T20:52:46+00:00"
+            "time": "2023-02-22T14:38:06+00:00"
         },
         {
             "name": "laravel/horizon",
@@ -8876,16 +8972,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "2.3.8",
+            "version": "2.3.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "c493585c130544c4e91d2e0e131e6d35cb0cbc47"
+                "reference": "c1e114f74e518daca2729ea8c4bf1167038fa4b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/c493585c130544c4e91d2e0e131e6d35cb0cbc47",
-                "reference": "c493585c130544c4e91d2e0e131e6d35cb0cbc47",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/c1e114f74e518daca2729ea8c4bf1167038fa4b5",
+                "reference": "c1e114f74e518daca2729ea8c4bf1167038fa4b5",
                 "shasum": ""
             },
             "require": {
@@ -8978,7 +9074,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-12-10T16:02:17+00:00"
+            "time": "2023-02-15T14:07:24+00:00"
         },
         {
             "name": "league/config",
@@ -9064,16 +9160,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "3.12.2",
+            "version": "3.12.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "f6377c709d2275ed6feaf63e44be7a7162b0e77f"
+                "reference": "81e87e74dd5213795c7846d65089712d2dda90ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/f6377c709d2275ed6feaf63e44be7a7162b0e77f",
-                "reference": "f6377c709d2275ed6feaf63e44be7a7162b0e77f",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/81e87e74dd5213795c7846d65089712d2dda90ce",
+                "reference": "81e87e74dd5213795c7846d65089712d2dda90ce",
                 "shasum": ""
             },
             "require": {
@@ -9135,7 +9231,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem/issues",
-                "source": "https://github.com/thephpleague/flysystem/tree/3.12.2"
+                "source": "https://github.com/thephpleague/flysystem/tree/3.12.3"
             },
             "funding": [
                 {
@@ -9151,7 +9247,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-19T12:02:19+00:00"
+            "time": "2023-02-18T15:32:41+00:00"
         },
         {
             "name": "league/mime-type-detection",
@@ -9483,16 +9579,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "2.8.0",
+            "version": "2.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "720488632c590286b88b80e62aa3d3d551ad4a50"
+                "reference": "f259e2b15fb95494c83f52d3caad003bbf5ffaa1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/720488632c590286b88b80e62aa3d3d551ad4a50",
-                "reference": "720488632c590286b88b80e62aa3d3d551ad4a50",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/f259e2b15fb95494c83f52d3caad003bbf5ffaa1",
+                "reference": "f259e2b15fb95494c83f52d3caad003bbf5ffaa1",
                 "shasum": ""
             },
             "require": {
@@ -9507,7 +9603,7 @@
                 "doctrine/couchdb": "~1.0@dev",
                 "elasticsearch/elasticsearch": "^7 || ^8",
                 "ext-json": "*",
-                "graylog2/gelf-php": "^1.4.2",
+                "graylog2/gelf-php": "^1.4.2 || ^2@dev",
                 "guzzlehttp/guzzle": "^7.4",
                 "guzzlehttp/psr7": "^2.2",
                 "mongodb/mongodb": "^1.8",
@@ -9569,7 +9665,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/monolog/issues",
-                "source": "https://github.com/Seldaek/monolog/tree/2.8.0"
+                "source": "https://github.com/Seldaek/monolog/tree/2.9.1"
             },
             "funding": [
                 {
@@ -9581,7 +9677,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-24T11:55:47+00:00"
+            "time": "2023-02-06T13:44:46+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -9892,16 +9988,16 @@
         },
         {
             "name": "nunomaduro/termwind",
-            "version": "v1.15.0",
+            "version": "v1.15.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nunomaduro/termwind.git",
-                "reference": "594ab862396c16ead000de0c3c38f4a5cbe1938d"
+                "reference": "8ab0b32c8caa4a2e09700ea32925441385e4a5dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nunomaduro/termwind/zipball/594ab862396c16ead000de0c3c38f4a5cbe1938d",
-                "reference": "594ab862396c16ead000de0c3c38f4a5cbe1938d",
+                "url": "https://api.github.com/repos/nunomaduro/termwind/zipball/8ab0b32c8caa4a2e09700ea32925441385e4a5dc",
+                "reference": "8ab0b32c8caa4a2e09700ea32925441385e4a5dc",
                 "shasum": ""
             },
             "require": {
@@ -9958,7 +10054,7 @@
             ],
             "support": {
                 "issues": "https://github.com/nunomaduro/termwind/issues",
-                "source": "https://github.com/nunomaduro/termwind/tree/v1.15.0"
+                "source": "https://github.com/nunomaduro/termwind/tree/v1.15.1"
             },
             "funding": [
                 {
@@ -9974,7 +10070,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-12-20T19:00:15+00:00"
+            "time": "2023-02-08T01:06:31+00:00"
         },
         {
             "name": "nyholm/psr7",
@@ -11465,12 +11561,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/uuid.git",
-                "reference": "25c4faac19549ebfcd3a6a73732dddeb188eaf5a"
+                "reference": "bf2bee216a4379eaf62162307d62bb7850405fec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/uuid/zipball/25c4faac19549ebfcd3a6a73732dddeb188eaf5a",
-                "reference": "25c4faac19549ebfcd3a6a73732dddeb188eaf5a",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/bf2bee216a4379eaf62162307d62bb7850405fec",
+                "reference": "bf2bee216a4379eaf62162307d62bb7850405fec",
                 "shasum": ""
             },
             "require": {
@@ -11550,7 +11646,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-28T17:00:47+00:00"
+            "time": "2023-02-07T16:14:23+00:00"
         },
         {
             "name": "sentry/sdk",
@@ -15460,16 +15556,16 @@
         },
         {
             "name": "voku/anti-xss",
-            "version": "4.1.39",
+            "version": "4.1.41",
             "source": {
                 "type": "git",
                 "url": "https://github.com/voku/anti-xss.git",
-                "reference": "64a59ba4744e6722866ff3440d93561da9e85cd0"
+                "reference": "55a403436494e44a2547a8d42de68e6cad4bca1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voku/anti-xss/zipball/64a59ba4744e6722866ff3440d93561da9e85cd0",
-                "reference": "64a59ba4744e6722866ff3440d93561da9e85cd0",
+                "url": "https://api.github.com/repos/voku/anti-xss/zipball/55a403436494e44a2547a8d42de68e6cad4bca1d",
+                "reference": "55a403436494e44a2547a8d42de68e6cad4bca1d",
                 "shasum": ""
             },
             "require": {
@@ -15515,7 +15611,7 @@
             ],
             "support": {
                 "issues": "https://github.com/voku/anti-xss/issues",
-                "source": "https://github.com/voku/anti-xss/tree/4.1.39"
+                "source": "https://github.com/voku/anti-xss/tree/4.1.41"
             },
             "funding": [
                 {
@@ -15539,7 +15635,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-03-08T17:03:58+00:00"
+            "time": "2023-02-12T15:56:55+00:00"
         },
         {
             "name": "voku/portable-ascii",
@@ -20391,5 +20487,5 @@
         "php": ">=8.1.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
