@@ -50,7 +50,7 @@
         "cgdsoftware/cli": "^5.0",
         "cgdsoftware/phpunit-pretty-print": "^1.0",
         "mockery/mockery": "^1.4.4",
-        "nunomaduro/collision": "^6.1",
+        "nunomaduro/collision": "^7.0",
         "nunomaduro/phpinsights": "^2.0",
         "phpunit/phpunit": "^9.5.10",
         "spatie/laravel-ignition": "^1.0"
